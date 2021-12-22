@@ -1,0 +1,36 @@
+/* Card */
+    .card {
+        background-color: #FDF7F2;
+    }
+
+    .card-deck{
+        padding-bottom: 6%;
+        padding-top: 6%;
+        background-color: #fcf0e6;
+    }
+
+
+/* Image Slider */
+    .carousel .carousel-item {
+        height: 800px;
+    }
+    
+    .carousel-item img {
+        position: absolute;
+        object-fit:cover;
+        top: 0;
+        left: 0;
+        min-height: 500px;
+    }
+
+    .card-title{
+        text-align: center;
+    }
+
+    .card-title a{
+        text-decoration: none;
+        color:black;
+        text-align: center;
+    }
+
+/*  */

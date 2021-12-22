@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+.account-div{
+    width: 100%;
+    padding:0% 0%;
+    background-color: #fcf0e6;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lr{
+    flex-grow: 1;
+    width: 15%;
+}
+
+.account-div-child {
+    flex-grow: 1;
+    width: 34%;
+    padding: 50px 0% 5% 0%;
+    font-family: 'Karla', sans-serif;
+}
+
+#account-div-register{
+    padding-left: 1%;
+}
+
+#account-div-login{
+    padding-right: 1%;
+}
+
+.required{
+    color: red;
+}
+
+

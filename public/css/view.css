@@ -1,0 +1,99 @@
+body{
+    width: 100%;
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+/* edit css nya ya :) ini cuma contoh */
+.flex-container img{
+	width: 500px;
+	height: 500px;
+	margin-left: 6px;
+	margin-top: 50px;
+}
+.flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+#prod-desc{
+	margin-left: 6px;
+	margin-top: 48px;
+}
+.input {
+	border: 1.5px solid #ddd;
+	border-radius: 15px;
+	text-align: center;
+	padding: 2px;
+	outline: 0;
+	margin-right: 0.2rem;
+	margin-bottom: 1rem;
+	width: 50px;
+}
+.btn{
+	width: 100px;
+	border: 1.5px solid #ddd;
+	border-radius: 18px;
+	text-align: right;
+	padding: 8px;
+	outline: 0;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	cursor: pointer;
+	color:#fff;
+	background-color: green;
+}
+/* Image Slider */
+#slide {
+	overflow: hidden;
+}
+#slide figure {
+	position: relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation: 20s slide infinite;
+}
+#slide figure img {
+	width: auto;
+	float: left;
+}
+@keyframes slide {
+	0% {
+		left: 0;
+	}
+	20% {
+		left: 0;
+	}
+	25% {
+		left: -100%;
+	}
+	45% {
+		left: -100%;
+	}
+	50% {
+		left: -200%;
+	}
+	70% {
+		left: -200%;
+	}
+	75% {
+		left: -300%;
+	}
+	95% {
+		left: -300%;
+	}
+	100% {
+		left: -400%;
+	}
+}
+
+#img-row{
+	 display: flex;
+	 justify-content: space-between;
+}
+#img-col{
+	flex-basis:	24%;
+	cursor: pointer;
+}

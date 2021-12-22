@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fcf0e6;
+    font-family: 'Futura Bk BT';
+}
+
+p{
+    line-height: 1.7;
+}
+
+
+.search-container{
+    background-color: #fcf0e6;
+    margin-top: 5px;
+}
+
+.search-container input{
+    border: 0;
+    border-radius: 3px;
+    outline: none;
+    font-size: 18px;
+    width: 12vw;
+}
+
+
+/* Navbar */
+    #logo{
+        width: 200px;
+    }
+
+    .navbar-brand{
+        padding-left: 15%;
+    }
+
+    .navbar-nav{
+        padding-right: 20%;
+    }
+
+    .navbar-light{
+        background-color: #FDF7F2;
+    }
+
+    .nav-link:hover{
+        color: #403730 !important;
+    }

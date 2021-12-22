@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FDF7F2;
+    font-family:'Futura Bk BT';
+}
+
+p{
+    line-height: 1.7;
+}
+
+
+/* Header */
+    #aboutus{
+        position: relative;
+    }
+
+    #aboutus h1{
+        z-index: 2;
+        position: absolute;
+        font-size: 65px;
+        width: 100%;
+        height: 26px;
+        padding: 0;
+        margin: 0;
+        margin-top:120px; 
+        text-align: center;
+        color: white;
+        font-family: 'Ephesis', cursive;
+    }
+
+    #aboutus h4 {
+        z-index: 2;
+        position: absolute;
+        font-size: 20px;
+        width: 100%;
+        height: 26px;
+        padding: 0;
+        margin: 0;
+        margin-top: 200px;
+        text-align: center;
+        color: white;
+        font-family: 'Karla', sans-serif;
+    }
+
+    #aboutus img{
+        z-index: 1;
+        width: 100%;
+        height: 380px;
+        position: absolute;
+    }
+
+
+/* Body Container Format */
+    /* Title  Format*/
+        .aboutus-div-text h3{
+            text-align: center;
+            padding-bottom: 2%;
+        
+        }
+
+    .aboutus-div{
+        width: 100%;
+        padding:0% 0%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .aboutus-div-text{
+        flex-grow: 1;
+        width: 70%;
+        padding: 440px 0% 5% 0%;
+        font-family: 'Karla', sans-serif;
+    }
+
+    .lr{
+        flex-grow: 1;
+        width: 15%;
+    }
+
+
+/* Aditional Service */
+    #aboutus-div1{
+        background-color: white;
+    }
+
+    .ad-box{
+        width: 100%;
+    }
+
+    .ad-row {
+        display: flex;
+    }
+    
+    .ad-col {
+    flex: 33.33%;
+    padding: 5px;
+    position: relative;
+    }
+
+    .ad-col img {
+        width: 80%;
+        margin: 0 10% ;
+    }
+
+    
+    #ad-col-text{
+        font-size: 15px;
+        width: 70%;
+        padding-top: 10px;
+        margin: 0% 15%;
+        text-align: center;
+        color: black;
+    }
+
+
+/* Contact Us */
+    #aboutus-div2{
+        background-color: #fcf0e6;
+    }
+
+    #aboutus-div-text2{
+        padding: 60px 0% 40px 0%;
+    }
+
+    .contact-form{
+        margin: 0 3%;
+    }
+
+
+/* Footer */
+#card-foot{
+    background-color:#FDF7F2 ;
+}
